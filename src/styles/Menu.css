@@ -1,0 +1,48 @@
+.windows-10-taskbar {
+     background-color: #1e1e1e;
+     color: #ffffff;
+     display: flex;
+     align-items: center;
+     height: 40px;
+     padding: 0 10px;
+     height: 5%;
+ }
+ 
+ .start-button {
+     color: #ffffff;
+     border: none;
+     border-radius: 5px;
+     padding: 5px 10px;
+     margin-right: 10px;
+     height: 30px;
+ }.start-button:hover{
+     background-color: #969595;
+ }
+ 
+ .task-icons {
+     display: flex;
+     gap: 5px;
+ }
+ 
+ .task-icon {
+     background: none;
+     border: none;
+     font-size: 14px;
+     color: #ffffff;
+     cursor: pointer;
+     padding: 0;
+     width: 30px;
+     height: 30px;
+ }
+
+ .task-icon img{
+     width: 20px;
+ }.task-icon:hover{
+     background-color: #969595;
+ }
+ .opened{
+     border-bottom: solid 2px lightskyblue;
+ }
+ .windowActive{
+     background-color: #747272;
+ }

@@ -1,0 +1,22 @@
+.directAccess{
+     display: flex;
+     flex-flow: column;
+     align-items: center;
+     width: 120px;
+     height: 125px;
+     color: white;
+}
+
+.imageDirect{
+     width: 100px;
+}
+
+.directAccess:hover{
+     background-color: rgba(128, 128, 128, 0.283);
+     border: solid 1px rgb(218, 218, 218);
+}
+
+.selected{
+     background-color: rgba(38, 38, 38, 0.831);
+     border: solid 1px rgb(218, 218, 218);
+}

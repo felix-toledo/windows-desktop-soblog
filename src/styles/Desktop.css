@@ -1,0 +1,8 @@
+.desktop{
+     display: flex;
+     flex-flow: column;
+     gap: 20px;
+     background-image: url("../images/background.jpg");
+     background-size: cover;
+     height: 95%;
+}

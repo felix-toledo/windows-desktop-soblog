@@ -1,0 +1,75 @@
+.windows-10-window {
+     width: 600px;
+     height: auto;
+     background-color: #ffffff;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+ }
+ 
+ .big{
+    width: 100vw;
+    height: 100vh;
+ }
+ 
+ .title-bar {
+     background-color: #0078d4;
+     color: #ffffff;
+     padding: 5px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .window-title {
+     font-weight: bold;
+ }
+ 
+ .window-controls {
+     display: flex;
+     gap: 5px;
+ }
+ 
+ .window-controls button {
+     background: none;
+     border: none;
+     font-size: 14px;
+     color: #ffffff;
+     cursor: pointer;
+     padding: 0;
+ }
+ 
+ .content {
+     padding: 10px;
+ }
+
+ .textParagraph{
+    padding: 10px;
+ }
+ 
+ .minimize-button:hover, .maximize-button:hover, .close-button:hover {
+     background-color: #ff5722;
+ }
+ 
+ .close-button {
+     color: #ff5722;
+ }
+ 
+ .close-button:hover {
+     background-color: #d32f2f;
+ }
+
+ .hidden{
+    visibility: hidden;
+ }
+
+ .windowImage{
+    padding: 10px;
+    max-height: 300px;
+ }
+
+ .icon-title{
+    height: 20px;
+ }
