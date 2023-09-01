@@ -22,9 +22,9 @@ export default function Window({tema, minimized, setMinimizedWindow, setActualWi
           setBig(!big)
      }
 
-     const imgSrc = tema == null ? "" : `/src/images/textImages/${tema.image}`;
+     const imgSrc = tema == null ? "" : `/assets/images/textImages/${tema.image}`;
      const imgAlt = tema == null ? "" : `Image related to ${tema.title}`;
-     const iconSrc = tema == null ? "" : `/src/images/icons/${tema.icon}`;
+     const iconSrc = tema == null ? "" : `/assets/images/icons/${tema.icon}`;
 
      return(
           <div className={windowClassName}>

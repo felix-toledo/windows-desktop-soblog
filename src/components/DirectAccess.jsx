@@ -10,7 +10,7 @@ export default function DirectAccess({img, title, onDoubleClick, key}){
      }
 
      const imageAlt = `${title} image icon`
-     const iconSrc = `/src/images/icons/${img}`
+     const iconSrc = `/assets/images/icons/${img}`
      return(
           <div key={key} onDoubleClick={onDoubleClick} onClick={classChange} className={aDiClass}>
                <img className="imageDirect" src={iconSrc} alt={imageAlt}></img>
