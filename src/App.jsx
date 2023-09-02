@@ -1,7 +1,6 @@
 import Desktop from './components/Desktop.jsx'
 import Menu from './components/Menu.jsx'
 import Window from './components/Window.jsx'
-import Game from './components/Game.jsx'
 import './styles/App.css'
 import getPageInfo from './logic/getPageInfo.js'
 import {useState} from 'react'
