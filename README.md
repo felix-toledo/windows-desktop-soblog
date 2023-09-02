@@ -73,7 +73,7 @@ Puedes clonar este repositorio y ejecutar la aplicación en tu entorno local sig
 2. Entra en el directorio del proyecto:
 
    ```shell
-   cd windows-desktop-replica
+   cd windows-desktop-soblog
    ```
 
 3. Instala las dependencias:
