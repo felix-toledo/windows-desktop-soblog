@@ -67,7 +67,7 @@ Puedes clonar este repositorio y ejecutar la aplicación en tu entorno local sig
 1. Clona el repositorio:
 
    ```shell
-   git clone https://github.com/TuUsuario/windows-desktop-replica.git
+   git clone https://github.com/felix-toledo/windows-desktop-soblog
    ```
 
 2. Entra en el directorio del proyecto:
