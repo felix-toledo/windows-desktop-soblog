@@ -20,7 +20,6 @@ function App() {
       <Desktop setActualWindow={setActualWindow} setMinimizedWindow={setMinimizedWindow}/>
       <Menu actualWindow={actualWindow} setMinimizedWindow={setMinimizedWindow} minimizedWindow={minimizedWindow} setActualWindow={setActualWindow}/>
       <Window tema={temas[actualWindow]} minimized={minimizedWindow} setMinimizedWindow={setMinimizedWindow} setActualWindow={setActualWindow}/>
-      <Game />
     </div>
   )
 }

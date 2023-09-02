@@ -1,11 +1,12 @@
 /* eslint-disable react/prop-types */
-
+import Game from './Game'
 import DirectAccess from './DirectAccess.jsx'
 import getPageInfo from '../logic/getPageInfo.js'
 import '../styles/Desktop.css'
+import { useState } from 'react'
 
 export default function Desktop({setActualWindow, setMinimizedWindow}){
-
+     const [gameHidden, setGameHidden] = useState(true);
 
      const temas = getPageInfo();
      
@@ -15,7 +16,7 @@ export default function Desktop({setActualWindow, setMinimizedWindow}){
      }
 
      function ingresoJuego(){
-          alert("juego");
+          setGameHidden(false)
      }
      
      return(
@@ -27,6 +28,7 @@ export default function Desktop({setActualWindow, setMinimizedWindow}){
                })
           }
           <DirectAccess onDoubleClick={ingresoJuego} img={"quizIcon.png"} title="Quiz!"/>
+          <Game isHidden = {gameHidden} setGameHidden={setGameHidden}/>
           </div>
      )
 }
