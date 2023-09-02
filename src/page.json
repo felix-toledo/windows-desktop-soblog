@@ -5,9 +5,10 @@
          "title": "En tiempo real",
          "iconTitle": "En tiempo real",
          "text": [
-           "Son sistemas diseñados para gestionar las críticas en el tiempo de manera predecible y confiable.",
-           "Estos responden a tipos de entrada de forma extramadamente rápida, milésimas o millonésimas de segundos.",
-           "Son necesarios para ejecutar equipos de diagnóstico médico, sistemas de apoyo a las funciones vitales, maquinarias, instrumentos científicos y sistemas industriales."
+           "Son sistemas diseñados para gestionar las críticas en el tiempo de manera predecible y confiable. Estos sistemas se utilizan en una variedad de aplicaciones, desde dispositivos médicos y automóviles inteligentes hasta sistemas de control industrial",
+           "Estos responden a tipos de entrada de forma extremadamente rápida, milésimas o millonésimas de segundos. Son necesarios para ejecutar equipos de diagnóstico médico, sistemas de apoyo a las funciones vitales, maquinarias, instrumentos científicos y sistemas industriales.",
+           "Las ventajas son que tiene una respuesta predecible, tiempo de ejecucción garantizado y eficiencia en el uso de recursos. Dentro de sus desventajas tenemos la complejidad de desarrollo, el costo y los recursos limitados",
+           "Algunos ejemplos de este sistema incluyen: FreeRTOS, QNX, VxWorks y RTLinux."
          ],
          "icon": "iconTiempoReal.png",
          "image": "realTime.png"
@@ -17,9 +18,10 @@
          "title": "De un solo usuario / una sola tarea",
          "iconTitle": "Una sola tarea",
          "text": [
-           "Son un tipo de sistema operativo diseñado principalmente para entornos simples donde una única tarea se ejecuta en un solo usuario. ",
-           "Solo permite que el usuario realice una tarea a la vez. Para un usuario, una tarea es una función como: imprimir, escribir, editar, o descargar un archivo.",
-           "Para este tipo de sistemas, una tarea es un proceso, y su pequeñez y sencillez solo le permite controlar una sola a la vez."
+           "Son un tipo de sistema operativo diseñado principalmente para entornos simples donde una única tarea se ejecuta en un solo usuario, a diferencia de los sistemas operativos multitarea, que permiten que múltiples aplicaciones se ejecuten simultáneamente y compartan recursos.",
+           "Solo permite que el usuario realice una tarea a la vez. Para un usuario, una tarea es una función como: imprimir, escribir, editar, o descargar un archivo. Para este tipo de sistemas, una tarea es un proceso, y su pequeñez y sencillez solo le permite controlar una sola a la vez.",
+           "Una de las ventajas que posee son la simplicidad, la eficiencia y los requisitos de hardware mínimos. Entre sus desventajas tenemos falta de multitarea, falta de modernidad y limitaciones de flexibilidad.",
+           "Dentro de los ejemplos tenemos: MS-DOS, Commodore 64 KERNAL, Atari TOS, Apple II ProDOS y Palm OS."
          ],
          "icon": "iconSolaTarea.png",
          "image": "singleTask.jpg"
@@ -29,9 +31,10 @@
          "title": "De un solo usuario / multitareas",
          "iconTitle": "Un solo usuario",
          "text": [
-           "Son un tipo de sistema operativo diseñado para servir a una única persona en un computadora personal.",
-           "Estos sistemas permiten que un solo usuario ejecute múltiples aplicaciones y tareas al mismo tiempo, lo que mejora significativamente la eficiencia y la productividad.",
-           "Ademas, estos sistemas suelen ofrecer interfaces de usuario intuitiva y gráficas, como ventanas y un entorno de escritorio, que facilitan la interaccion del usuario con las aplicaciones."
+           "Son un tipo de sistema operativo diseñado para servir a una única persona en una computadora personal. Estos sistemas permiten que un solo usuario ejecute múltiples aplicaciones y tareas al mismo tiempo, lo que mejora significativamente la eficiencia y la productividad.",
+           "Estos sistemas permiten que un solo usuario ejecute múltiples aplicaciones y tareas al mismo tiempo, lo que mejora significativamente la eficiencia y la productividad. Ademas, estos sistemas suelen ofrecer interfaces de usuario intuitiva y gráficas, como ventanas y un entorno de escritorio, que facilitan la interaccion del usuario con las aplicaciones.",
+           "Entre sus ventajas tenemos la simplicidad y la predicibilidad. Y con respecto a sus desventajas, la falta de multitarea y la subutilización de recursos.",
+           "Algunos ejemplos de este sistema son: Windows, Linux y macOS."
          ],
          "icon": "iconUSUMulti.png",
          "image": "multiTask.jpg"
@@ -41,9 +44,10 @@
         "title": "Multiusuario / multitareas",
         "iconTitle": "Multiusuario",
          "text": [
-           "Son una categoría de sistemas operativos diseñados para admitir simultáneamente a varios usuarios y ejecutar múltiples tareas de manera eficiente en una misma computadora o servidor.",
-           "Son escenciales en entornos donde se requiere el acceso concurrente a recursos compartdios, como servidores, mainframes y sistemas de red.",
-           "Suelen contar con sistemas de autenticacíon y control de acceso robustos para proteger la privacidad y la seguridad de los datos de cada usuario."
+           "Son una categoría de sistemas operativos diseñados para admitir simultáneamente a varios usuarios y ejecutar múltiples tareas de manera eficiente en una misma computadora o servidor. ",
+           "Son esenciales en entornos donde se requiere el acceso concurrente a recursos compartidos, como servidores, mainframes y sistemas de red. Suelen contar con sistemas de autenticacíon y control de acceso robustos para proteger la privacidad y la seguridad de los datos de cada usuario.",
+           "Algunas de las ventajas son la eficiencia de recursos, la productividad mejorada y el tiempo de respuesta rapido. Como desventajas tenemos la complejidad, el mayor consumo de recursos y los posibles problemas de seguridad.",
+           "Entre sus ejemplos tenemos: Linux, Windows, macOS, UNIX y Servidores Web."
          ],
          "icon": "iconMultiMulti.png",
          "image": "multiUser.jpg"
